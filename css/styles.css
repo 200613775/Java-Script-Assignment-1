@@ -1,3 +1,32 @@
+/* set appropriate background color, font-family and many other things to look more attractive for the user */
 body {
-    background-color: antiquewhite;
+    background-color: rgb(231, 211, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* set color, padding, and margin for the button */
+button {
+    color: black;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* set font-family and font-size for the h1 */
+h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* set font-size: 30px for the p and 40px for the h2 and attractive font-family for both */
+p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
