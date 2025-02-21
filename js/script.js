@@ -4,8 +4,8 @@ const verbs = ["runs", "sleeps", "flies","dances", "sings", "walks"];
 const adjectives = ["happy", "sad", "colorful", "silly","angry", "friendly"];
 
 // use getElementById element to get button and story for the user
-const createBtn = document.getElementById("createBtn");
-const storyText = document.getElementById("storyText");
+const createBtn = document.getElementById('createBtn');
+const storyText = document.getElementById('storyText');
 
 // Function to generate a random story
 function createStory() {
@@ -16,7 +16,7 @@ function createStory() {
     var randomAdjective = adjectives[Math.floor(Math.random() * (adjectives.length))];
 
     // Construct the structure of the story in proper form
-    const story = `The ${randomAdjective} ${randomNoun} ${randomVerb}!`;
+    const story = `A ${randomAdjective} ${randomNoun} ${randomVerb}!`;
 
     // display story for the user 
     storyText.textContent = story;
